@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<body><div class="main_div" id="my_dataviz2" style="width:320px"></div></body>
+<body><div class="main_div" id="my_dataviz2"></div></body>
 <style>
     .tooltip {
       position: absolute;
@@ -59,7 +59,7 @@
   (div_width > 740 ? 
   width = (pageWidth*0.715) - margin.left : 
   width = (div_width) - margin.left);
-  var height = 400 - margin.top - margin.bottom;
+  var height = 500 - margin.top - margin.bottom;
   
   // append the svg object to the body of the page
   var svg2 = d3.select("#my_dataviz2")
@@ -73,7 +73,7 @@
   svg2.append("rect")
       .attr("width", (div_width> 750 ? (pageWidth*0.715) : (div_width*0.97)))
       .attr("id","test-background")
-      .attr("height", "67.5%")
+      .attr("height", "75%")
       .attr("fill", "white")
       .attr('y', -20)
       .attr('x',  (div_width> 750 ? -15 : -25));
@@ -166,7 +166,7 @@
   }
   
   //Read the data
-  d3.csv("https://raw.githubusercontent.com/agmo1993/macropakistani/master/Post5Chart4.csv", function(data) {
+  d3.csv("https://raw.githubusercontent.com/agmo1993/macropakistani/master/data/Post5Chart4.csv", function(data) {
   
       // create a tooltip
   
@@ -296,10 +296,10 @@
   
       svg2.append("rect")
       .attr("width", (div_width > 750 ? "60%" : width+30))
-      .attr("height", "8%")
+      .attr("height", "5%")
       .attr("fill", "white")
       .attr('x', (div_width > 750 ? (pageWidth*0.12) : -20))
-      .attr('y', height + 42.5)
+      .attr('y', height + 48)
       .style("stroke-width","1")
       .style("stroke","#58595b");
       
