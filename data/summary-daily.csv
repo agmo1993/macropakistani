@@ -1,4 +1,4 @@
-Metric,Date_T,Value_T,Date_Y,Value_Y,Y-PCT,YTD,One_Year,One_Month
+Metric,Date_T,Value_T,Date_Y,Value_Y,PCT,YTD,One_Year,One_Month
 gold,2020-11-11,111800.0,2020-11-10,0.0,0.0%,26.61%,29.32%,-4.53%
 kse100,2020-11-11,41197.32,2020-11-10,44.27,0.11%,-3.02%,10.84%,2.81%
 allshr,2020-11-11,28864.16,2020-11-10,2.71,0.01%,-3.38%,9.33%,1.01%
