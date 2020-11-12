@@ -1,4 +1,4 @@
-Metric,Date_T,Value_T,Date_Y,Value_Y,Y-PCT,YTD,One_Year,One_Month
+Metric,Date_T,Value_T,Date_Y,Value_Y,PCT,YTD,One_Year,One_Month
 Q1,2020-11-05,150.84,2020-10-29,-0.5,0.33%,11.56%,11.49%,1.38%
 Q2,2020-11-05,145.15,2020-10-29,-0.46,0.32%,10.85%,10.78%,1.38%
 Q3,2020-11-05,146.23,2020-10-29,-0.34,0.23%,10.24%,10.44%,1.44%
