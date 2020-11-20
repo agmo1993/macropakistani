@@ -1,4 +1,4 @@
-Metric,Date_T,Value_T,Date_Y,Value_Y,Y-PCT,YTD,One_Year,One_Month
+Metric,Date_T,Value_T,Date_Y,Value_Y,PCT,YTD,One_Year,One_Month
 Tomatoes,2020-11-12,143.7,2020-11-05,-4.06,-2.75%,2.02%,-30.2%,8.27%
 Wheat,2020-11-12,984.25,2020-11-05,-4.69,-0.47%,7.21%,6.83%,-6.14%
 Masoor,2020-11-12,160.12,2020-11-05,-0.42,-0.26%,13.2%,20.38%,0.18%
